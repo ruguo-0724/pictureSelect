@@ -1,0 +1,54 @@
+.box{
+    height: 600px;
+    width: 800px;
+    margin: 50px auto;
+    .selectAll{
+        height: 30px;
+        width: 30px;
+        font-size: 26px;
+        border: 2px solid #ccc;
+        text-align: center;
+        line-height: 30px;
+        cursor: pointer;
+    }
+    .imgCons{
+        padding: 20px 100px 0;
+        .sunKind {
+            height: 100px;
+            width: 100px;
+            float: left;
+            margin-right: 30px;
+            position: relative;
+
+            .checked{
+                position: absolute;
+                width: 25px;
+                height: 25px;
+                // border: 1px solid #ccc;
+                background:#0bf;
+                top: 0;
+                left:0;
+                text-align: center;
+                line-height: 25px;
+            }
+            .unchecked{
+                position: absolute;
+                width: 25px;
+                height: 25px;
+            }
+        }
+
+    }
+}
+
+
+
+
+
+.active {
+    // height: 100px;
+    // width: 100px;
+    // margin: 10px auto;
+    // background-image:url('https://timgsa.baidu.com/timg?image&quality=80&size=b9999_10000&sec=1568279240114&di=51758ca586f2d6244938ee974fd7f649&imgtype=0&src=http%3A%2F%2Fku.90sjimg.com%2Felement_pic%2F18%2F03%2F28%2F4dae0bc2996605985b4ab597ab426bbd.jpg');
+
+}
